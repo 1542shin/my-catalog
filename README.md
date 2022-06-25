@@ -1,7 +1,7 @@
 
-# Fetch Posts
+# My Catalog
 
-Fetch Posts is web front-end project.
+My Catalog is web front-end project.
 It fetches a number of articles from other websites for each categories and shows them on the timeline.
 
 ## Requirement
@@ -12,7 +12,7 @@ Please request temporary access for CORS at the website
 
 ## Live Demo
 
-[Fetch Posts Demo](https://1542shin.github.io/my-catalog) ([https://1542shin.github.io/my-catalog](https://1542shin.github.io/my-catalog))
+[My Catalog Demo](https://1542shin.github.io/my-catalog) ([https://1542shin.github.io/my-catalog](https://1542shin.github.io/my-catalog))
 
 ![Alt text](/Demo-screenshot.png )
 ![Alt text](/Demo-screenshot2.png )
