@@ -10,7 +10,7 @@ import emailIcon from "../asset/email.png";
 function TopBar() {
   return (
     <div id="topbar" className=" flex border-b-2 border-black h-30">
-      <div id="logo" className="  hidden lg:flex  hoverAnimation ">
+      <div id="logo" className="  hidden lg:flex  hoverAnimation " data-aos="zoom-in" data-aos-duration="1000">
         <img className=' w-52' src={horizonlogo} alt="logo" />
       </div>
 
@@ -28,7 +28,7 @@ function TopBar() {
         <a id="linkedin" href='https://www.linkedin.com/in/aahan-shin-300722235' target="_blank" rel="noreferrer" >
           <img className="w-8 mr-2 hover:scale-110" src={linkedinIcon} alt='linkedIn icon' />
         </a>{" "}
-        <a id="mail" href='mailto:1542shin@gmail.com' rel="noreferrer" >
+        <a id="mail" href='mailto:1542shin@gmail.com'>
           <img className="w-10 hover:scale-110" src={emailIcon} alt='email icon' />
         </a>
       </div>
