@@ -1,12 +1,12 @@
-
 # My Catalog
 
-My Catalog is web front-end project.
-It fetches a number of articles from other websites for each categories and shows them on the timeline.
+My Catalog is a web front-end project with React/Redux library. It fetches a number of posts from multiple websites and shows them on the timeline for each category.
+
+This web project helps to read articles from multiple websites in one website.
 
 ## Requirement
 
-Please request temporary access for CORS at the website
+The project requires access to cors-anywhere server.
 
 [CORS Anywhere](https://cors-anywhere.herokuapp.com/corsdemo) ([https://cors-anywhere.herokuapp.com/corsdemo](https://cors-anywhere.herokuapp.com/corsdemo))
 
@@ -88,9 +88,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Feedback
 
 If you have any feedback, please reach out to us at 1542shin@gmail.com
-
-
-## Related
-
-Here are some related projects
 

@@ -10,7 +10,7 @@ import emailIcon from "../asset/email.png";
 function TopBar() {
   return (
     <div id="topbar" className=" flex border-b-2 border-black h-30">
-      <div id="logo" className="  hidden lg:flex  hoverAnimation " data-aos="zoom-in" data-aos-duration="1000">
+      <div id="logo" className="  hidden lg:flex  hoverAnimation " data-aos="fade-up" data-aos-duration="1000">
         <img className=' w-52' src={horizonlogo} alt="logo" />
       </div>
 
