@@ -16,7 +16,7 @@ function TopBar() {
 
       <div
         id="title"
-        className="font-['Tangerine'] text-6xl sm:text-8xl m-auto p-5 grow whitespace-nowrap  font-bold text-center "
+        className="font-['Tangerine'] text-4xl sm:text-6xl lg:text-7xl m-auto p-5 grow whitespace-nowrap  font-bold text-center "
       >
         <NavLink to="/my-catalog/">Expand Your Horizon </NavLink>
       </div>
