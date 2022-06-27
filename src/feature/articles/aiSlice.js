@@ -11,7 +11,7 @@ export const fetchUrlAsync = createAsyncThunk("ai/fetchUrl", async (url) => {
     let linksDoc = parser.parseFromString(responseText, "text/html");
     //console.log(linksDoc);
     let linkElemArr = [];
-    for (let index = 0; index < 1; index++) { //4
+    for (let index = 0; index < 4; index++) { //4
       linkElemArr.push(
         await linksDoc.querySelector(
           `  #techforge > div.off-canvas-wrapper.tf-full-screen > div > div:nth-child(3) > div > section > div:nth-child(2) > div:nth-child(${
