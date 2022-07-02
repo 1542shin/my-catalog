@@ -13,7 +13,7 @@ export const fetchUrlAsync = createAsyncThunk(
       let linksDoc = parser.parseFromString(responseText, "text/html");
       //console.log(linksDoc);
       let linkElemArr = [];
-      for (let index = 0; index < 2; index++) {
+      for (let index = 0; index < 5; index++) {
         linkElemArr.push(
           await linksDoc.querySelector(
             `body>div:nth-child(2)>div:nth-child(1)>section:nth-child(3)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>article:nth-child(${index+1})>a:nth-child(1)`

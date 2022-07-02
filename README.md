@@ -1,8 +1,8 @@
 # My Catalog
 
-My Catalog is a web front-end project with React/Redux library. It fetches a number of posts from multiple websites and shows them on the timeline for each category.
+My Catalog is a web front-end project with React/Redux library. It fetches posts from multiple websites and shows them on the timeline for each category.
 
-This web project helps to read articles from multiple websites in one website.
+This web project helps to read articles from multiple sources in one website.
 
 ## Requirement
 
@@ -18,7 +18,7 @@ The project requires access to cors-anywhere server.
 ![Alt text](/Demo-screenshot2.png )
 
 ## Technology
-HTML, CSS, Javascript, React, Redux, TailwindCSS
+HTML, CSS, JavaScript, React, Redux, Tailwind
 
 ## Features
 
@@ -55,6 +55,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
+
 ## Running Tests
 
 To run tests, run the following command
@@ -87,5 +88,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Feedback
 
-If you have any feedback, please reach out to us at 1542shin@gmail.com
+If you have any feedback, please reach out to 1542shin@gmail.com
 
