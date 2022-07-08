@@ -12,7 +12,7 @@ export const loadArticleAsync = createAsyncThunk(
       const article = articleDoc.querySelector(
         "body > div.wrap.sub.intro.intro-news-view > section > div.wrap-content > div > div.wrap-post > div.post-view.post-markdown"
       );
-      const articleString = article.outerHTML; //make html object to string
+      const articleString = article.outerHTML; 
       return articleString;
     } catch (e) {
       console.log(e);
@@ -26,10 +26,8 @@ export const postSlice = createSlice({
   reducers: {},
   extraReducers: {
     [loadArticleAsync.pending]: () => {
-      //console.log("pending");
     },
     [loadArticleAsync.fulfilled]: (state, action) => {
-      //console.log(`fulfilled: ${action.payload}`);
       return action.payload;
     },
   },

@@ -9,18 +9,16 @@ function Home() {
   const [close, setClose] = useState(false);
 
   return (
-    <div id="Home" className="">
+    <div id="Home">
       <div className="relative">
         <img
           src={panorama}
-          alt="seychelles source: pixabay.com"
-          className="absolute min-w-screen min-h-screen  object-cover shrink-0 -z-10"
+          alt="seychelles source:pixabay.com"
+          className="absolute min-w-screen min-h-screen  object-cover -z-10"
         />
       </div>
       {close ? null : (
-        <div className='flex items-center fixed bg-white m-2 p-1 z-10 '
-          
-        >
+        <div className='flex items-center fixed bg-white m-2 p-1 z-10'>
           <button className='w-5 m-2' aria-label="close" onClick={() => setClose("true")}>
            <img src={closeIcon} alt='close icon'/>
           </button>
@@ -39,7 +37,7 @@ function Home() {
       )}
       <div
         id="smallMenu"
-        className="flex fixed text-md sm:text-2xl  justify-center w-full gap-5 pt-20  mx-auto lg:hidden"
+        className="flex fixed text-md sm:text-2xl justify-center w-full gap-5 pt-20 mx-auto lg:hidden"
       >
         <div>
           <NavLink
@@ -48,32 +46,32 @@ function Home() {
               isActive ? activeClassName : normalClassName
             }
           >
-            <span className=" ">Buddhism</span>
+            <span>Buddhism</span>
           </NavLink>
         </div>
         <div>
           <NavLink to="/my-catalog/physics">
             {({ isActive }) => (
               <span className={isActive ? activeClassName : normalClassName}>
-                <span className="">Physics</span>
+                <span>Physics</span>
               </span>
             )}
           </NavLink>
-        </div>{" "}
+        </div>
         <div>
           <NavLink to="/my-catalog/ai">
             {({ isActive }) => (
               <span className={isActive ? activeClassName : normalClassName}>
-                <span className=" ">AI</span>
+                <span>AI</span>
               </span>
             )}
           </NavLink>
-        </div>{" "}
+        </div>
         <div>
           <NavLink to="/my-catalog/biology">
             {({ isActive }) => (
               <span className={isActive ? activeClassName : normalClassName}>
-                <span className=" ">Biology</span>
+                <span>Biology</span>
               </span>
             )}
           </NavLink>

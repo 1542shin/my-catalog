@@ -19,7 +19,6 @@ export const Ai = () => {
 
   return (
     <div className=" pl-0 lg:pl-28 pt-10 pb-72">
-      {" "}
       {aiUrls.length > 0 &&
         aiUrls.map((url) => {
           const id = uuidv4();

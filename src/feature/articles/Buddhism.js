@@ -10,7 +10,6 @@ export const fetchDoc = async (url) => {
     const responseText = await response.text();
     var parser = new DOMParser();
     var doc = parser.parseFromString(responseText, "text/html");
-    //console.log("succeed");
     return doc;
   } catch (e) {
     console.log(e);

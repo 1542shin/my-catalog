@@ -17,7 +17,6 @@ export const Biology = () => {
 
   return (
     <div className="pl-0 lg:pl-28 pt-10 pb-72">
-      {" "}
       {biologyUrls.length > 0 &&
         biologyUrls.map((url) => {
           const id = uuidv4();

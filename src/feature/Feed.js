@@ -8,8 +8,7 @@ import Home from "./Home";
 
 function Feed() {
   return (
-    <div id="feed" className=" ">
-      
+    <div id="feed">
       <Routes>
         <Route path="/my-catalog/buddhism" element={<Buddhism />} />
         <Route path="/my-catalog/ai" element={<Ai />} />

@@ -6,11 +6,11 @@ export function Sidebar() {
   return (
     <div
       id="sidebar"
-      className="invisible lg:visible fixed flex flex-col h-full w-[14rem] "
+      className="invisible lg:visible fixed flex flex-col h-full w-[14rem]"
     >
       <ul
         id="links"
-        className="grow flex flex-col justify-center gap-5 text-xl ml-20 pb-60   "
+        className="grow flex flex-col justify-center gap-5 text-xl ml-20 pb-60"
       >
         <li>
           <NavLink

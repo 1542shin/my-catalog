@@ -16,11 +16,10 @@ function Post(props) {
         let parser = new DOMParser();
         let articleDoc = parser.parseFromString(responseText, "text/html");
         const articleTitle = articleDoc.querySelector(titleQuery);
-        const articleTitleString = articleTitle.outerHTML; //make htmlobj to string
+        const articleTitleString = articleTitle.outerHTML;
         setTitle(articleTitleString);
-
         const articleText = articleDoc.querySelector(textQuery);
-        const articleTextString = articleText.outerHTML; //make htmlobj to string
+        const articleTextString = articleText.outerHTML;
         setText(articleTextString);
       } catch (e) {
         console.log(e);
@@ -32,24 +31,22 @@ function Post(props) {
   return (
     <div
       id="post"
-      className="p-3 space-y-2 sm:w-9/12 border-t border-gray-700 mx-auto"
-    >
+      className="p-3 sm:w-9/12 border-t border-gray-700 mx-auto">
       <div>
         {title ? (
           <div
             id="title"
-            className="text-[#000000] text-xl "
+            className="text-[#000000] text-xl"
             dangerouslySetInnerHTML={{ __html: title }}
           ></div>
         ) : (
-          <div id="loading" className="text-[#a64e4e] text-xl ">
-            {" "}
+          <div id="loading" className="text-[#a64e4e] text-xl">
             Loading Article..
           </div>
         )}
         <button
           id="viewButton"
-          className=" bg-[#1d9bf0] text-white rounded-full px-3 my-4  shadow-md hover:bg-[#1a8cd8]"
+          className=" bg-[#1d9bf0] text-white rounded-full px-3 my-4 shadow-md hover:bg-[#1a8cd8]"
           onClick={handleClick}
         >
           {view ? "Hide Article ⬆" : "Show Article ⬇"}
@@ -57,7 +54,7 @@ function Post(props) {
         {view ? (
           <div
             id="article"
-            className=" outline outline-3 p-3 text-[#000000] text-[20px] sm:text-base mt-0.5"
+            className="outline outline-3 p-3 text-[#000000] text-[20px] sm:text-base mt-0.5 break-words"
             dangerouslySetInnerHTML={{ __html: text }}
           ></div>
         ) : null}

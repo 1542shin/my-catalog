@@ -19,7 +19,6 @@ export const Physics = () => {
 
   return (
     <div className="  pl-0 lg:pl-28 pt-10 pb-72">
-      {" "}
       {physicsUrls.length > 0 &&
         physicsUrls.map((url) => {
           const id = uuidv4();

@@ -11,7 +11,6 @@ export const fetchUrlAsync = createAsyncThunk(
       const responseText = await response.text();
       let parser = new DOMParser();
       let linksDoc = parser.parseFromString(responseText, "text/html");
-      //console.log(linksDoc);
       let linkElemArr = [];
       for (let index = 0; index < 5; index++) {
         linkElemArr.push(
@@ -21,13 +20,11 @@ export const fetchUrlAsync = createAsyncThunk(
           )
         );
       }
-      //console.log(linkElemArr);
       let linkUrlArr = linkElemArr.map((linkElem) => {
         let linkPath = linkElem.getAttribute("href").split("?")[0];
         let linkUrl = corsurl + linkPath
         return linkUrl;
       });
-      //console.log(linkUrlArr);
       return linkUrlArr;
     } catch (e) {
       console.log(e);
@@ -41,10 +38,8 @@ export const buddhismSlice = createSlice({
   reducers: {},
   extraReducers: {
     [fetchUrlAsync.pending]: () => {
-      //console.log("pending");
     },
     [fetchUrlAsync.fulfilled]: (state, action) => {
-      //console.log(`fulfilled: ${action.payload}`);
       return action.payload;
     },
   },
