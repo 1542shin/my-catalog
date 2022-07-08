@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/my-catalog/static/css/main.6bc340c3.css",
-    "main.js": "/my-catalog/static/js/main.4de30492.js",
+    "main.css": "/my-catalog/static/css/main.567a0f16.css",
+    "main.js": "/my-catalog/static/js/main.461684e5.js",
     "static/media/panorama.jpg": "/my-catalog/static/media/panorama.3abf5b5887ac6e29596c.jpg",
     "static/media/horizonlogo.png": "/my-catalog/static/media/horizonlogo.694e432565c514cb26d2.png",
     "static/media/closeIcon.svg": "/my-catalog/static/media/closeIcon.eed9477523de893fdb94d05087c9c5fc.svg",
     "index.html": "/my-catalog/index.html",
-    "main.6bc340c3.css.map": "/my-catalog/static/css/main.6bc340c3.css.map",
-    "main.4de30492.js.map": "/my-catalog/static/js/main.4de30492.js.map"
+    "main.567a0f16.css.map": "/my-catalog/static/css/main.567a0f16.css.map",
+    "main.461684e5.js.map": "/my-catalog/static/js/main.461684e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bc340c3.css",
-    "static/js/main.4de30492.js"
+    "static/css/main.567a0f16.css",
+    "static/js/main.461684e5.js"
   ]
 }
