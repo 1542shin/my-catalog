@@ -24,10 +24,10 @@ function TopBar() {
         <a id="github" href='https://github.com/1542shin/my-catalog' target="_blank" rel="noreferrer">
           <img className="w-8 mr-3 hover:scale-110" src={githubIcon} alt='github icon'/>
         </a>
-        <a id="linkedin" href='https://www.linkedin.com/in/aahan-shin-300722235' target="_blank" rel="noreferrer">
+        <a id="linkedin" href='https://www.linkedin.com/in/%E2%9D%84%EF%B8%8Faahan-s-198950246' target="_blank" rel="noreferrer">
           <img className="w-8 mr-2 hover:scale-110" src={linkedinIcon} alt='linkedIn icon'/>
         </a>
-        <a id="mail" href='mailto:1542shin@gmail.com'>
+        <a id="mail" href='mailto:1142shin@gmail.com'>
           <img className="w-10 hover:scale-110" src={emailIcon} alt='email icon'/>
         </a>
       </div>
