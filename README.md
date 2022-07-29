@@ -88,5 +88,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Feedback
 
-If you have any feedback, please reach out to 1142shin@gmail.com
+If you have any feedback, please reach out to 1542shin@gmail.com
 
